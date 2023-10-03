@@ -1,9 +1,11 @@
 # PassedRoleLambdaExfiltrator
  PassedRoleLambdaExfiltrator: An AWS tool to detect and exploit iam:PassRole with Lambda for privilege escalation. It enumerates vulnerable roles, deploys a function, and sends credentials to an ngrok endpoint using an HTTP POST request.
 
-## Description
-PassedRoleLambdaExfiltrator is an AWS security testing tool tailored to detect and automate the exploitation of the iam:PassRole permission alongside AWS Lambda functions. Its primary goal is to pinpoint potential privilege escalation vulnerabilities. If an executing user holds the lambda, iam:Read, and iam:PassRole permissions, the tool identifies this potential gap and demonstrates its exploitability. It accomplishes this by listing assumable Lambda roles, deploying a sample function, and subsequently exfiltrating the AWS environment credentials to a designated ngrok endpoint.
+## Overview
+PassedRoleLambdaExfiltrator is an AWS security testing tool designed to detect and automate the exploitation of the iam:PassRole permission in conjunction with AWS Lambda functions. Its primary objective is to identify potential privilege escalation vulnerabilities within an AWS environment. The tool specifically targets situations where a user possesses both the lambda and iam:PassRole permissions, highlighting this potential security gap and demonstrating its exploitability. It achieves this by listing assumable Lambda roles, deploying a sample Lambda function, and subsequently exfiltrating AWS environment credentials to a designated ngrok endpoint.
 
+## Exploitation of `iam:PassRole` Permission
+The primary focus of this tool is to demonstrate the exploitation of the iam:PassRole permission in combination with AWS Lambda permissions. The Lambda function created by the tool's deployment is intentionally configured to assume a specified role and then send the assumed role's credentials via an HTTP POST request to a server controlled by the attacker. This method showcases the potential for privilege escalation, as an attacker with access to these credentials could potentially gain unauthorized access to resources within the AWS environment.
 
 ## Features
 * Scans for lambda, iam:Read, and iam:PassRole permissions.
