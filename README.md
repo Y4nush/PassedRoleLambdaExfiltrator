@@ -19,3 +19,11 @@ pip install -r requirements.txt
 python PassedRoleLambdaExfiltrator.py [--access_key_id YOUR_ACCESS_KEY] [--secret_access_key YOUR_SECRET_KEY] [--profile AWS_CLI_PROFILE]
 ```
 Follow the on-screen instructions to select roles and regions for Lambda deployment.
+
+## Demo
+![image](https://github.com/Y4nush/PassedRoleLambdaExfiltrator/assets/104491821/3aad5996-7d2e-42c2-9ac5-b43a8ae4aad8)
+![image](https://github.com/Y4nush/PassedRoleLambdaExfiltrator/assets/104491821/5a80a522-2743-45e7-a905-3820369a58a2)
+![image](https://github.com/Y4nush/PassedRoleLambdaExfiltrator/assets/104491821/818c3a3d-7315-4ec5-b447-ccb2b5c90f76)
+
+
+
