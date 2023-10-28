@@ -14,10 +14,16 @@ The primary focus of this tool is to demonstrate the exploitation of the iam:Pas
 * Automatically exfiltrates the lambda secrets from the AWS environment variables to an ngrok endpoint.
 
 ## Usage
+```bash
+git clone https://github.com/Y4nush/PassedRoleLambdaExfiltrator.git
 ```
+```bash
+cd PassedRoleLambdaExfiltrator
+```
+```bash
 pip install -r requirements.txt
 ```
-```
+```bash
 python PassedRoleLambdaExfiltrator.py [--access_key_id YOUR_ACCESS_KEY] [--secret_access_key YOUR_SECRET_KEY] [--profile AWS_CLI_PROFILE]
 ```
 Follow the on-screen instructions to select roles and regions for Lambda deployment.
