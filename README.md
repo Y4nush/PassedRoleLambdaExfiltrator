@@ -1,5 +1,5 @@
 # PassedRoleLambdaExfiltrator
- PassedRoleLambdaExfiltrator: An AWS tool to detect and exploit iam:PassRole with Lambda for privilege escalation. It enumerates vulnerable roles, deploys a function, and sends credentials to an ngrok endpoint using an HTTP POST request.
+An AWS offensive security tool designed to detect and exploit the iam:PassRole with Lambda for privilege escalation. It enumerates vulnerable roles, deploys a function, and sends credentials to an ngrok endpoint using an HTTP POST request by invoking the malicious lambda function.
 
 ## Overview
 PassedRoleLambdaExfiltrator is an AWS security testing tool designed to detect and automate the exploitation of the iam:PassRole permission in conjunction with AWS Lambda functions. Its primary objective is to identify potential privilege escalation vulnerabilities within an AWS environment. The tool specifically targets situations where a user possesses both the lambda and iam:PassRole permissions, highlighting this potential security gap and demonstrating its exploitability. It achieves this by listing assumable Lambda roles, deploying a sample Lambda function, and subsequently exfiltrating AWS environment credentials to a designated ngrok endpoint.
