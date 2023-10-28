@@ -29,9 +29,9 @@ python PassedRoleLambdaExfiltrator.py [--access_key_id YOUR_ACCESS_KEY] [--secre
 Follow the on-screen instructions to select roles and regions for Lambda deployment.
 
 ## Demo
-![image](https://github.com/Y4nush/PassedRoleLambdaExfiltrator/assets/104491821/3aad5996-7d2e-42c2-9ac5-b43a8ae4aad8)
-![image](https://github.com/Y4nush/PassedRoleLambdaExfiltrator/assets/104491821/5a80a522-2743-45e7-a905-3820369a58a2)
-![image](https://github.com/Y4nush/PassedRoleLambdaExfiltrator/assets/104491821/818c3a3d-7315-4ec5-b447-ccb2b5c90f76)
+![image](https://github.com/Y4nush/PassedRoleLambdaExfiltrator/assets/104491821/aeeafac8-7f76-4644-a7ca-23264887a1bf)
+![image](https://github.com/Y4nush/PassedRoleLambdaExfiltrator/assets/104491821/c0b80f40-07ec-4d6c-bed9-e7c761810f06)
+![Untitled](https://github.com/Y4nush/PassedRoleLambdaExfiltrator/assets/104491821/064d4f28-15da-4952-9d1e-c42deedfbb35)
 
 
 
